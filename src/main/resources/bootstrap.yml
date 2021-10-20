@@ -1,0 +1,20 @@
+spring:
+     application:
+       name: springCloudConfigClient
+     profiles:
+       active: dev
+     cloud:
+       config:
+         label: main
+         uri: http://localhost:2019
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+             
+           
+           
+               
+     
+           
